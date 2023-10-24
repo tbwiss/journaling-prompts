@@ -1,25 +1,20 @@
 import { Card, CardContent, Typography } from "@mui/material";
 import * as React from "react";
+import { selfReflectionPrompts } from "../data/database";
 
 export default function PromptList() {
+  const prompts = selfReflectionPrompts
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 3);
   return (
     <>
-      <Card sx={{ minWidth: 200 }}>
-        <CardContent>
-          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-            Word of the Day
-          </Typography>
-
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
-            adjective
-          </Typography>
-          <Typography variant="body2">
-            well meaning and kindly.
-            <br />
-            {'"a benevolent smile"'}
-          </Typography>
-        </CardContent>
-      </Card>
+      {prompts.map((prompt, idx) => (
+        <Card className="mb-3 flex justify-left items-center" key={idx}>
+          <CardContent>
+            <Typography color="text.secondary">{prompt}</Typography>
+          </CardContent>
+        </Card>
+      ))}
     </>
   );
 }
