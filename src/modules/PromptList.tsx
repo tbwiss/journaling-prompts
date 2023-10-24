@@ -16,7 +16,7 @@ export default function PromptList({ selectedCat, promptsAmount }: Props) {
       {prompts?.map((prompt, idx) => (
         <Card className="mb-3 flex justify-left items-center" key={idx}>
           <CardContent>
-            <Typography color="text.secondary">{prompt}</Typography>
+            <Typography color="text">{prompt}</Typography>
           </CardContent>
         </Card>
       ))}

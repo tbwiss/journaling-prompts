@@ -344,7 +344,7 @@ export const categories: Category[] = [
   },
   {
     key: "selfReflection",
-    label: "Self Reflection",
+    label: "Reflection",
     data: selfRef,
   },
   {
@@ -354,7 +354,7 @@ export const categories: Category[] = [
   },
   {
     key: "selfReflectionGratefulnessBlog",
-    label: "Self Reflection [Ext]",
+    label: "Self Reflection",
     data: selfReflectionPrompts,
   },
 ];

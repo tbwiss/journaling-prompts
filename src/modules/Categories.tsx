@@ -14,13 +14,13 @@ export default function Categories({ selectedCat, setSelectedCat }: Props) {
         {categories.map((category) => (
           <Grid item key={category.key} xs={6}>
             <Card
-              className={`mb-1 flex justify-left items-center rounded-2xl ${
+              className={`mb-1 flex justify-left items-center text-center rounded-2xl ${
                 selectedCat?.key === category.key && "opacity-70"
               }`}
               onClick={() => setSelectedCat(category)}
             >
               <CardContent>
-                <Typography color="text.secondary">{category.label}</Typography>
+                <Typography color="text.primary">{category.label}</Typography>
               </CardContent>
             </Card>
           </Grid>

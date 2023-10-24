@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "11.11.1",
     "@emotion/styled": "11.11.0",
+    "@fontsource/roboto": "^5.0.8",
     "@mui/base": "5.0.0-beta.20",
     "@mui/material": "5.14.14",
     "@types/react": "18.2.31",
@@ -17,7 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "publish": "npm run build && surge build journaling-prompts.surge.sh"
   },
   "browserslist": {
     "production": [
