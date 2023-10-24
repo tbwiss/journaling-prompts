@@ -1,6 +1,6 @@
 {
-  "name": "material-ui-cra-ts",
-  "version": "5.0.0",
+  "name": "journaling-prompts",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@emotion/react": "11.11.1",
@@ -32,6 +32,6 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "3.3.3"
   }
 }
