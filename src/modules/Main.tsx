@@ -14,12 +14,15 @@ export default function Main() {
         </section>
       </div>
 
-      <footer className="h-12 w-full fixed bottom-0 flex justify-center items-center bg-white rounded-tr-3xl">
+      <footer className="h-12 w-full fixed bottom-0 flex justify-center items-center bg-white rounded-tr-3xl text-sm">
         <span className="pr-3">credits:</span>
         <span className="pr-3">
           <a href="https://blog.gratefulness.me/self-reflection-journaling-ideas-for-you/">
             prompts
           </a>
+        </span>
+        <span className="pr-3">
+          <a href="https://dayoneapp.com/blog/journal-prompts/">prompts</a>
         </span>
         <span className="pr-3">
           <a
