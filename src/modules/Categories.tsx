@@ -15,7 +15,7 @@ export default function Categories({ selectedCat, setSelectedCat }: Props) {
           <Grid item key={category.key} xs={6}>
             <Card
               className={`mb-1 flex justify-left items-center text-center rounded-2xl ${
-                selectedCat?.key === category.key && "opacity-70"
+                selectedCat?.key === category.key && "opacity-70 border"
               }`}
               onClick={() => setSelectedCat(category)}
             >
