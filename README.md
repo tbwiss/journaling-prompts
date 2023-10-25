@@ -2,6 +2,8 @@
 
 Helps you in finding prompts for your everyday journaling.
 
+See [demo](https://journaling-prompts.surge.sh/) (may be torn down at some point)
+
 ## How to use
 
 Have npm/node.js installed locally.
